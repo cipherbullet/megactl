@@ -1,0 +1,21 @@
+#main-layout {
+    height: 100%;
+    layout: vertical;
+}
+
+#chat {
+    height: 1fr;
+    overflow: auto;
+    border: round gray;
+}
+
+#input-row {
+    height: 3;
+    padding: 0 1;
+    border: round green;
+}
+
+#input-box {
+    width: 100%;
+    height: 100%;
+}

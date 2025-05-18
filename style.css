@@ -1,0 +1,21 @@
+#input-row {
+    height: 3;
+    layout: horizontal;
+}
+
+/* #context-label {
+    width: 20;
+    padding-left: 1;
+    content-align: left middle;
+    color: $primary;
+    border: round $accent;
+}
+*/
+
+#input-box {
+    height: 3;
+    border: round $accent;
+    padding: 0 1;
+    background: $surface;
+    color: $text;
+}
