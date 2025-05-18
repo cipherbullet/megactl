@@ -18,7 +18,7 @@ from megactl.tui.context_selector import ContextSelector
 
 HISTORY_FILE = Path.home() / ".megactl" / "history.json"
 
-class megactlApp(App):
+class MegaCtlApp(App):
     CSS_PATH = "../../style.css"
     BINDINGS = [("q", "quit", "Quit")]
 
