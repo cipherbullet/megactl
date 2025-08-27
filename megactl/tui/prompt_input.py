@@ -80,10 +80,10 @@ class PromptInput(Widget):
         if input_changed:
             self.refresh()
 
-            if self.suggestion_timer:
-                self.suggestion_timer.stop()
+            # if self.suggestion_timer:
+            #     self.suggestion_timer.stop()
 
-            self.suggestion_timer = self.set_timer(0.4, lambda: self.run_suggestion())
+            # self.suggestion_timer = self.set_timer(0.4, lambda: self.run_suggestion())
 
     def update_prompt(self, context_name: str):
         self.prompt = f"[{context_name}] "
